@@ -1,0 +1,148 @@
+﻿*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+/*----------------firstattempt-------------------*/
+.FirstAttempt{
+    width:100%;
+	height:800px;
+	padding: 0;
+	margin: 0;
+	background:url(../img/malte-baumann.jpg) center center no-repeat;
+ 	background-size: cover;
+}
+/*--------------firstattempt/overattempt---------*/
+.FirstAttempt .OverAttempt{
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0.0 , 0.0 , 0.0 , 0.7);
+}
+/*--------------firstattempt/overattempt/logot---------*/
+.FirstAttempt .OverAttempt .logot{
+    height: 30%;
+    width: 100%;
+}
+/*-------logot/img---------*/
+.FirstAttempt .OverAttempt .logot img{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+/*-------logot/h1---------*/
+.FirstAttempt .OverAttempt .logot h1{
+    margin-left: 13%;
+    color: #176757;
+    font-family: Home Planet BB;
+    font-size: 34px;
+}
+/*--------------firstattempt/overattempt/beginning1---------*/
+.FirstAttempt .OverAttempt .Beginning1{
+    height: 35%;
+    width: 100%;
+    float: left;
+}
+/*--------------beginning1/h1---------*/
+.FirstAttempt .OverAttempt .Beginning1 h1{
+    color: white;
+    font-size: 60px;
+    font-family: open sans;
+    text-align: center;
+    padding-top: 10%;
+}
+/*--------------firstattempt/overattempt/beginning2---------*/
+.FirstAttempt .OverAttempt .Beginning2{
+    height: 8%;
+    width: 100%;
+    float: left;
+    /*background-color: red;*/
+}
+/*--------------beginning2/includes---------*/
+.FirstAttempt .OverAttempt .Beginning2 .includes{
+    height: 50px;
+    width: 400;
+    /*background-color: white;*/
+    margin: auto;
+    text-align: center;
+}
+/*--------------beginning2/includes/thisis---------*/
+.FirstAttempt .OverAttempt .Beginning2 .includes .thisis{
+    height: 100%;
+    width: 90%;
+    float: left;
+    /*background-color: black;*/
+}
+/*--------------beginning2/includes/thisis/one---------*/
+.FirstAttempt .OverAttempt .Beginning2 .includes .thisis .one .btn-primary{
+    float: left;
+    height: 100%;
+    width: 50%;
+    background-color: #176757;
+    font-family: calibri;
+    font-size: 36px;
+    color: white;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    outline: none;
+    border:none;
+    transition: 1s all;
+}
+.FirstAttempt .OverAttempt .Beginning2 .includes .thisis .one .btn-primary a{
+    color: white;
+    text-decoration-line: none;
+}
+.FirstAttempt .OverAttempt .Beginning2 .includes .thisis .one .btn-primary:hover{
+    background-color:white;
+    color:  #176757 ;
+}
+.FirstAttempt .OverAttempt .Beginning2 .includes .thisis .one .btn-primary a:hover{
+    color: #176757;
+}
+/*--------------beginning2/includes/thisis/two---------*/
+.FirstAttempt .OverAttempt .Beginning2 .includes .thisis .two .btn-secondry{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    font-family: calibri;
+    font-size: 36px;
+    color: #176757;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    outline: none;
+    border:none;
+    transition: 1s all;
+}
+.FirstAttempt .OverAttempt .Beginning2 .includes .thisis .two .btn-secondry a{
+    color: #176757;
+    text-decoration-line: none;
+}
+
+.FirstAttempt .OverAttempt .Beginning2 .includes .thisis .two .btn-secondry:hover{
+    background-color: #176757  ;
+    color: white;
+}
+.FirstAttempt .OverAttempt .Beginning2 .includes .thisis .two .btn-secondry a:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

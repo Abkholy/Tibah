@@ -1,0 +1,57 @@
+﻿<!DOCTYPE>
+<html>
+<head>
+	<title>Tibah Main Page</title>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/gu1.css">
+
+</head>
+<body>
+    <section class="search_area">
+        <div class="OverAttempt">
+                <div class="logot">
+                <a href="index.html"><img src="img/Tabah logoo.png"></a>
+                <h1>Tabah Foundation</h1>
+             </div>
+
+             <form class="InAttempt" autocomplete="off" method="post" novalidate> 
+                <div class="auther_area autocomplete">
+                    <input id="auther" type="text" placeholder="The Auther"  name="auther" >
+                    <button disabled><i class="fa fa-search"></i></button>
+                </div>
+              
+<div class="book_area autocomplete">
+            <input id="book" type="text" placeholder="The Book" name="book">
+            <button disabled><i class="fa fa-search"></i></button>
+</div>
+<div class="publisher_area autocomplete">
+            <input id="publisher" type="text" placeholder="The Publisher" name="publisher">
+            <button disabled><i class="fa fa-search"></i></button>
+
+</div>
+    <div class="Proceed_btn">
+        <button type="button" onclick="search(book,auther,publisher)"><a>Proceed</a></button>
+    </div>
+             </form>
+
+             </div>
+        
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.4.4/fuse.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        autocomplete(document.getElementById("auther"), auther);
+        autocomplete(document.getElementById("book"), book);
+        autocomplete(document.getElementById("publisher"), publisher);
+    </script>
+</body>

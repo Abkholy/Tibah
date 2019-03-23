@@ -1,0 +1,280 @@
+﻿*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+/*---------------search_area-------------------*/
+.search_area{
+    padding: 0;
+    margin: 0;
+    float: left;
+    width:100%;
+    height: 100%;
+	background:url(../img/malte-baumann.jpg) center center no-repeat;
+ 	background-size: cover; 
+}
+/*---------------search_area/overattempt-------------------*/
+.search_area .OverAttempt{
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0.0 , 0.0 , 0.0 , 0.7);
+}
+/*---------------search_area/overattempt/logot-------------------*/
+.search_area .OverAttempt .logot{
+    height: 30%;
+    width: 100%;
+    float: left;
+}
+/*---------------logot/img-------------------*/
+.search_area .OverAttempt .logot img{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+/*---------------logot/h1-------------------*/
+.search_area .OverAttempt .logot h1{
+    margin-left: 13%;
+    color: #176757;
+    font-family: Home Planet BB;
+    font-size: 34px;
+}
+/*---------------search_area/overattempt/inattempt-------------------*/
+.search_area .InAttempt{
+    float: left;
+    width: 100%;
+    height: 60px;
+    margin-top: 100px;
+    padding: 0;
+}
+/*---------------inattempt/auther_area-------------------*/
+.search_area .OverAttempt .InAttempt .auther_area{
+    float: left;
+    width: 33.3333%;
+    height: 50px;
+}
+/*---------------inattempt/auther_area/input-------------------*/
+.search_area .OverAttempt .InAttempt .auther_area input{
+    float: left;
+    width: 70%;
+    height: 40px;
+    background-color: white;
+    color: #176757;
+    margin-left: 10%;
+    font-family: calibri;
+    font-size: 20px;
+    border: 1px yellow;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    padding: 10px;
+    padding-left: 20px;
+    outline: none;
+}
+/*---------------inattempt/auther_area/button-------------------*/
+.search_area .OverAttempt .InAttempt .auther_area button{
+    float: left;
+    width: 10%;
+    height: 40px;
+    background-color: silver;
+    outline: none;
+    text-decoration: none;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    border: 1px white;
+}
+.search_area .OverAttempt .InAttempt .auther_area button:hover{
+    background-color: Grey;
+}
+/*---------------inattempt/auther_area/i-------------------*/
+.search_area .OverAttempt .InAttempt .auther_area i{
+   color: #176757;
+    font-size:26px; 
+}
+
+/*---------------inattempt/book_area-------------------*/
+.search_area .OverAttempt .InAttempt .book_area{
+    float: left;
+    width: 33.3333%;
+    height: 50px;
+}
+/*---------------inattempt/book_area/input-------------------*/
+.search_area .OverAttempt .InAttempt .book_area input{
+    float: left;
+    width: 70%;
+    height: 40px;
+    background-color: white;
+    color: #176757;
+    margin-left: 10%;
+    font-family: calibri;
+    font-size: 20px;
+    border: 1px yellow;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    padding: 10px;
+    padding-left: 20px;
+    outline: none;
+}
+/*---------------inattempt/book_area/button-------------------*/
+.search_area .OverAttempt .InAttempt .book_area button{
+    float: left;
+    width: 10%;
+    height: 40px;
+    background-color: silver;
+    outline: none;
+    text-decoration: none;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    border: 1px white;
+}
+.search_area .OverAttempt .InAttempt .book_area button:hover{
+    background-color: Grey;
+}
+/*---------------inattempt/book_area/i-------------------*/
+.search_area .OverAttempt .InAttempt .book_area i{
+   color: #176757;
+    font-size:26px; 
+}
+
+/*---------------inattempt/publisher_area-------------------*/
+.search_area .OverAttempt .InAttempt .publisher_area{
+    float: left;
+    width: 33.3333%;
+    height: 50px;
+}
+/*---------------inattempt/publisher_area/input-------------------*/
+.search_area .OverAttempt .InAttempt .publisher_area input{
+    float: left;
+    width: 70%;
+    height: 40px;
+    background-color: white;
+    color: #176757;
+    margin-left: 10%;
+    font-family: calibri;
+    font-size: 20px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    padding: 10px;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+}
+/*---------------inattempt/publisher_area/button-------------------*/
+.search_area .OverAttempt .InAttempt .publisher_area button{
+    float: left;
+    width: 10%;
+    height: 40px;
+    background-color: silver;
+    outline: none;
+    text-decoration: none;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    border: none;
+}
+.search_area .OverAttempt .InAttempt .publisher_area button:hover{
+    background-color: Grey;
+}
+/*---------------inattempt/publisher_area/i-------------------*/
+.search_area .OverAttempt .InAttempt .publisher_area i{
+   color: #176757;
+    font-size:26px; 
+}
+
+/*---------------search_area/overattempt/proceed_btn-------------------*/
+.search_area .OverAttempt .Proceed_btn{
+    width: 100%;
+    height: 60px;
+    float: left;
+    margin-top:150px;
+    text-align: center;
+}
+/*---------------proceed_btn/button-------------------*/
+.search_area .OverAttempt .Proceed_btn button{
+    width: 20%;
+    height: 55px;
+    background-color: white;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    outline: none;
+    border: none;
+    transition: 1s all;
+}
+.search_area .OverAttempt .Proceed_btn button:hover{
+    background-color: silver;
+}
+/*---------------proceed_btn/a-------------------*/
+.search_area .OverAttempt .Proceed_btn a{
+    color: #176757;
+    text-decoration-line: none;
+    font-family: calibri;
+    font-size: 36px;
+}
+
+
+
+
+
+
+.autocomplete {
+    /*the container must be positioned relative:*/
+    position: relative;
+    display: inline-block;
+}
+
+input {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type=text] {
+    background-color: #f1f1f1;
+    width: 100%;
+}
+
+input[type=submit] {
+    background-color: DodgerBlue;
+    color: #fff;
+}
+
+.autocomplete-items {
+    position: absolute;
+    border-bottom: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 20%;
+    right: 0;
+}
+
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(209, 209, 209);
+    opacity: 0.8;
+    border-bottom: 1px solid #464646;
+     width: 70%;
+
+}
+
+.autocomplete-items div:hover {
+    /*when hovering an item:*/
+    background-color: #e9e9e9;
+}
+
+.autocomplete-active {
+    /*when navigating through the items using the arrow keys:*/
+    background-color: DodgerBlue !important;
+    color: #ffffff;
+}
+
+
+
