@@ -35,28 +35,7 @@
  }
 
   console.log(searchItems);
-//       var canvas = document.getElementById('myCanvas');
-//   var context = canvas.getContext('2d');
-//  canvas_arrow(context, 50, 200, 50, 40)
-//  canvas_arrow(context, 200, 200, 55, 200)
-//  canvas_arrow(context, 200, 60, 200, 195 )
- 
-  
-// function canvas_arrow(context, fromx, fromy, tox, toy) {
-//     var headlen = 10; // length of head in pixels
-//     var angle = Math.atan2(toy - fromy, tox - fromx);
-//     context.moveTo(fromx, fromy);
-//     context.lineTo(tox, toy);
-//     context.lineTo(tox - headlen * Math.cos(angle - Math.PI / 6), toy - headlen * Math.sin(angle - Math.PI / 6));
-//     context.moveTo(tox, toy);
-//     context.lineTo(tox - headlen * Math.cos(angle + Math.PI / 6), toy - headlen * Math.sin(angle + Math.PI / 6));
-//     context.strokeStyle = 'red';
-//     context.lineWidth = 2;
-//     context.lineCap = 'round';
-//     context.stroke();
-//     context.beginPath();
-// }
-	// set up initial variables
+
 var canvas = document.getElementById('myCanvas');
 
 const ctx = canvas.getContext('2d');
@@ -89,21 +68,33 @@ function render(n) {
     // start `x` at lower range, increment by N until x >= higher range
     for (var x = r[0]; Math.floor(x * precision) / precision <= r[1]; x += N) {
         // `s` is just compensating for width/height of canvas 
-        const px = canvas.width / 4 + x * s;
-        // y is the out of `f` and again, like x, scaled for aspect ratio of screen
-        const py = canvas.height - s / 6 - f(x) * s;
-        ctx.lineTo(px, py);
-        ctx.stroke();
-        ctx.closePath();
-        ctx.beginPath();
-        ctx.arc(px, py, 6, 0, Math.PI * 2);
-        ctx.fill();
-        ctx.stroke();
-        ctx.beginPath();
-        ctx.moveTo(px, py);
+        if (searchItems.auther === "محمد خالد" && searchItems.book === "الحقيقة" && searchItems.publisher === "دار ميمون") {
+            const px = canvas.width / 4 + x * s;
+            // y is the out of `f` and again, like x, scaled for aspect ratio of screen
+            const py = canvas.height - s / 6 - f(x) * s;
+             complete(px,py);
+        }
+        else if (searchItems.auther === "ahmed morad" && searchItems.book === "a101" && searchItems.publisher === "1") {
+            const px = canvas.width / 2 + x * s;
+            // y is the out of `f` and again, like x, scaled for aspect ratio of screen
+            const py = canvas.height - 3 / 6 - f(x) * s;
+            complete(px, py);
+        }
+     
+        
     }
 };
 
-;
+function complete(px,py){
+    ctx.lineTo(px, py);
+    ctx.stroke();
+    ctx.closePath();
+    ctx.beginPath();
+    ctx.arc(px, py, 6, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.moveTo(px, py);
+}
 
 $(render(3)).fadeIn("slow");

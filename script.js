@@ -1,8 +1,8 @@
-var auther = ["ahmed morad", "mohamed essa", "elhabib ali elgafri", "test", "ab", "cd", "ef &amp; g", "h", "i", "k", "k", "lm", "n", "op", "qrs", "tu"];
+var auther = ["ahmed morad", "علي جمعة", "elhabib ali elgafri", "محمد خالد", "ab", "cd", "ef &amp; g", "h", "i", "k", "k", "lm", "n", "op", "qrs", "tu"];
 
-var book = ["a101", "b201", "c301", "d401", "e501", "f601", "g701", "h801", "i901", "j101", "k201", "lm301", "n401", "op501", "qrs601", "tu701"];
+var book = ["a101", "الحقيقة", "جامع الكتب", "d401", "e501", "f601", "g701", "h801", "i901", "j101", "k201", "lm301", "n401", "op501", "qrs601", "tu701"];
 
-var publisher = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"];
+var publisher = ["1", "دار ميمون", "دار قرطبة", "أطلس للنشر", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"];
 
 var db = [
     {
@@ -13,9 +13,9 @@ var db = [
         "location": "A1"
     },    {
         "id":"2",
-        "auther" : "mohamed essa",
-        "book" : "b201",
-        "publisher":"2",
+        "auther": "محمد خالد",
+        "book": "الحقيقة",
+        "publisher": "دار ميمون",
         "location":"A2"
     },  {
         "id":"2",
